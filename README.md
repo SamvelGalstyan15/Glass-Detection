@@ -1,3 +1,2 @@
-# Glass-Detection
-A CNN model predicts whether a person in a photo is wearing glasses.
-The trained model is saved in .h5 format and can be easily loaded for inference using Keras load_model()
+# Glass-Detection-Transfer-Learning
+The project implemented a glasses classifier based on MobileNetV2 (Transfer Learning). The main challenge was the small data volume, which was addressed through on-the-fly augmentation within the model architecture. The final accuracy during validation reached 90%+, and built-in normalization allows the model to be used in real-world applications without additional data preprocessing.
